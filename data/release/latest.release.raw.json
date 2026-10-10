@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1485341,
       "digest": null,
-      "download_count": 67,
+      "download_count": 71,
       "created_at": "2024-12-31T23:13:53Z",
       "updated_at": "2024-12-31T23:13:53Z",
       "browser_download_url": "https://github.com/osa1/tiny/releases/download/v0.13.0/tiny-ubuntu-22.04-dbus.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 946120,
       "digest": null,
-      "download_count": 24,
+      "download_count": 27,
       "created_at": "2024-12-31T23:13:54Z",
       "updated_at": "2024-12-31T23:13:54Z",
       "browser_download_url": "https://github.com/osa1/tiny/releases/download/v0.13.0/tiny-ubuntu-22.04-libssl-dbus.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 915965,
       "digest": null,
-      "download_count": 25,
+      "download_count": 28,
       "created_at": "2024-12-31T23:13:52Z",
       "updated_at": "2024-12-31T23:13:53Z",
       "browser_download_url": "https://github.com/osa1/tiny/releases/download/v0.13.0/tiny-ubuntu-22.04-libssl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1532243,
       "digest": null,
-      "download_count": 290,
+      "download_count": 293,
       "created_at": "2024-12-31T23:13:52Z",
       "updated_at": "2024-12-31T23:13:52Z",
       "browser_download_url": "https://github.com/osa1/tiny/releases/download/v0.13.0/tiny-ubuntu-22.04-static.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1454331,
       "digest": null,
-      "download_count": 44,
+      "download_count": 47,
       "created_at": "2024-12-31T23:13:51Z",
       "updated_at": "2024-12-31T23:13:52Z",
       "browser_download_url": "https://github.com/osa1/tiny/releases/download/v0.13.0/tiny-ubuntu-22.04.tar.gz"
