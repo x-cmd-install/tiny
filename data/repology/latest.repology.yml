@@ -1,0 +1,475 @@
+- repo: homebrew
+  srcname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Terminal IRC client
+- repo: kali_rolling
+  subrepo: main
+  srcname: tiny
+  binnames:
+    - tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: alpine_3_22
+  subrepo: community
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Terminal IRC client written in Rust
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: tiny
+  binname: tiny-doc
+  visiblename: tiny-doc
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Terminal IRC client written in Rust (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Terminal IRC client written in Rust
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: tiny
+  visiblename: tiny
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal IRC client
+- repo: alpine_3_23
+  subrepo: community
+  srcname: tiny
+  binname: tiny-doc
+  visiblename: tiny-doc
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Terminal IRC client written in Rust (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-r1
+  status: newest
+  summary: Terminal IRC client written in Rust
+  maintainers:
+    - huajingyun@loongson.cn
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: tiny
+  binname: tiny-doc
+  visiblename: tiny-doc
+  version: 0.13.0
+  origversion: 0.13.0-r1
+  status: newest
+  summary: Terminal IRC client written in Rust (documentation)
+  maintainers:
+    - huajingyun@loongson.cn
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-r1
+  status: newest
+  summary: Terminal IRC client written in Rust
+  maintainers:
+    - huajingyun@loongson.cn
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: tiny
+  binname: tiny-doc
+  visiblename: tiny-doc
+  version: 0.13.0
+  origversion: 0.13.0-r1
+  status: newest
+  summary: Terminal IRC client written in Rust (documentation)
+  maintainers:
+    - huajingyun@loongson.cn
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A terminal IRC client written in Rust
+  licenses:
+    - MIT
+- repo: aur
+  srcname: tiny-git
+  binname: tiny-git
+  visiblename: tiny-git
+  version: 0.13.0.r0.54fecca
+  origversion: 0.13.0.r0.54fecca-1
+  status: rolling
+  summary: A terminal IRC client written in Rust
+  maintainers:
+    - ralphptorres@aur
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Terminal IRC client
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: tiny
+  binname: tiny-doc
+  visiblename: tiny-doc
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Terminal IRC client (documentation)
+  licenses:
+    - MIT
+- repo: debian_14
+  subrepo: forky/main
+  srcname: tiny
+  binnames:
+    - tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: tiny
+  binnames:
+    - tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: tiny
+  binnames:
+    - tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: gentoo_ovl_guru
+  srcname: net-irc/tiny
+  visiblename: net-irc/tiny
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: IRC client written in Rust
+  maintainers:
+    - guru@gentoo.org
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - ISC
+    - openssl
+    - Unicode-DFS-2016
+  categories:
+    - net-irc
+- repo: haikuports_master
+  srcname: dev-lang/tiny
+  visiblename: dev-lang/tiny
+  version: 0.1.01
+  origversion: null
+  status: outdated
+  categories:
+    - dev-lang
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: tiny
+  binnames:
+    - tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - nilsonfsilva@hotmail.com
+  categories:
+    - universe/net
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0_1
+  status: newest
+  summary: Tiny terminal IRC client
+  maintainers:
+    - jonathan.kirszling@runbox.com
+  licenses:
+    - MIT
+- repo: liguros_stable
+  srcname: net-irc/tiny
+  visiblename: net-irc/tiny
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: IRC client written in Rust
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - ISC
+    - openssl
+    - Unicode-DFS-2016
+  categories:
+    - net-irc
+- repo: liguros_develop
+  srcname: net-irc/tiny
+  visiblename: net-irc/tiny
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: IRC client written in Rust
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+    - Apache-2.0
+    - BSD
+    - ISC
+    - openssl
+    - Unicode-DFS-2016
+  categories:
+    - net-irc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A terminal IRC client written in Rust
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A terminal IRC client written in Rust
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A terminal IRC client written in Rust
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: tiny
+  visiblename: tiny
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: A console IRC client
+  maintainers:
+    - brightone@protonmail.com
+    - elisp.vim@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: tiny
+  visiblename: tiny
+  version: 0.12.0
+  origversion: null
+  status: outdated
+  summary: Console IRC client
+  maintainers:
+    - brightone@protonmail.com
+    - elisp.vim@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Console IRC client
+  maintainers:
+    - brightone@protonmail.com
+    - elisp.vim@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Console IRC client
+  maintainers:
+    - brightone@protonmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Console IRC client
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Console IRC client
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: tiny
+  visiblename: tiny
+  version: 0.10.0
+  origversion: 0.10.0+git14-bp155.1.26
+  status: outdated
+  summary: Terminal IRC client written in Rust
+  licenses:
+    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (Apache-2.0 OR MIT OR BSD-2-Clause) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND MIT
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: tiny
+  visiblename: tiny
+  version: 0.11.0
+  origversion: 0.11.0+git7-bp156.2.35
+  status: outdated
+  summary: Terminal IRC client written in Rust
+  licenses:
+    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (Apache-2.0 OR MIT OR BSD-2-Clause) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND MIT
+  categories:
+    - Unspecified
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: tiny
+  binnames:
+    - tiny
+    - tiny-debuginfo
+    - tiny-debugsource
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0+git5.g2ee969a-2.6
+  status: newest
+  summary: Terminal IRC client written in Rust
+  licenses:
+    - (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (Apache-2.0 OR MIT OR BSD-2-Clause) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND MIT
+  categories:
+    - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: tiny
+  binname: tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A terminal IRC client written in Rust
+  licenses:
+    - MIT
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tiny
+  binnames:
+    - tiny
+  visiblename: tiny
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
