@@ -24,16 +24,6 @@ Total: **13,638** lines of code across **78** files in the top 5 languages.
 | Markdown | 0 | 715 | 243 | 6 |
 | Text | 0 | 4,829 | 2,433 | 3 |
 
-## OpenSSF Scorecard
-
-Overall score: **3 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (2/10) — Found 8/30 approved changesets -- score normalized to 2
-- **Maintained** (0/10) — 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
-
 ## Source
 
 - **Upstream**: <https://github.com/osa1/tiny>
@@ -57,12 +47,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 5 | 0 | 1 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 5 | 0 | 1 | 0 |
-| 360d | 2025-11-28 | 0 | 4 | 5 | 1 | 2 | 10 |
-| last720d | 2024-12-03 | 1 | 9 | 5 | 4 | 5 | 25 |
+| 30d | 2026-10-25 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last60d | 2026-09-25 | 0 | 0 | 5 | 0 | 1 | 0 |
+| 90d | 2026-08-26 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last180d | 2026-05-28 | 0 | 0 | 5 | 0 | 1 | 0 |
+| 360d | 2025-11-29 | 0 | 4 | 5 | 1 | 2 | 10 |
+| last720d | 2024-12-04 | 1 | 9 | 5 | 4 | 5 | 25 |
 
 ## Release assets
 
@@ -98,4 +88,4 @@ Install metadata for tiny lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T09:03:04Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:23:56Z._
